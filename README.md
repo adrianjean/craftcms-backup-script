@@ -118,6 +118,7 @@ By default the following is backed up by this script:
 
 - Ensure your server user has permission to read/write inside the project directory.
 - Test the backup manually before scheduling it via cron or automation.
+- This script assumes a trusted server environment. For maximum database credential security, consider using a `.my.cnf` file to avoid password exposure via command-line arguments.
 
 ## Use as a Cron job
 You can automate your backups by adding this line as a cron job on your server. This will run the script daily at 2:00 AM and saves a log of any issues in the `backup` directory of the project:
