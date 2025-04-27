@@ -17,6 +17,7 @@ A customizable script to back up a CraftCMS project — including its database, 
 Save this script to a useful location, like your home folder and make it executable:
 
 ```
+chmod u+x /path/to/backup-craftcms.sh
 ```
 
 ## Usage
